@@ -1,4 +1,4 @@
-const blankState = {index: 0, longitude: 'd', latitude: ''};
+const blankState = {index: 0, longitude: '', latitude: ''};
 const list = (state = [blankState], action) => {
     const update = (item) => {
         if (item.index === action.payload.index) {

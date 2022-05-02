@@ -16,7 +16,6 @@ const Actions = ({dispatch, list, allowSubmit}) => {
       });
 
       await Promise.all(locationPromises).then((response) => {
-          console.log(response, 'The final response');
           dispatch({type: 'submit', payload: response})
       });
   };

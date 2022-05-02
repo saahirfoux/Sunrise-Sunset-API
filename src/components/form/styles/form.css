@@ -1,13 +1,11 @@
-.input-fields {
-    display: flex;
-}
+/* Containers */
 .container_form-elements {
     max-width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-
+/* Elements */
 .element_input-field {
     padding: 10px;
     background-color: #f5f8fa;

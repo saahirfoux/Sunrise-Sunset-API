@@ -1,3 +1,4 @@
+/* Containers */
 .container_result-list {
     border: 1px #000 solid;
     border-radius: 5px;
@@ -12,7 +13,13 @@
     border-radius: 5px;
     background-color: #f5f8fa;
 }
-
+.container_result-item-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+}
+/* Elements */
 .element_result-item-number {
     font-size: 20px;
     color: #000;
@@ -20,17 +27,3 @@
     padding: 10px;
     font-weight: bold;
 }
-.container_result-item-info {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16px;
-}
-
-/* <div className={'container_result-item'}>
-<div className={'element_result-item-number'}>{`#${index}`}</div>
-<div className={'container_result-item-info'}>
-    <div className={'element_result-item-time'}>{`Sunrise: ${item.sunrise}`}</div>
-    <div className={'element_result-item-time'}>{`Sunset: ${item.sunset}`}</div>
-</div>
-</div>       */
