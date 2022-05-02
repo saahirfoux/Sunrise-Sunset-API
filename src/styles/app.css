@@ -1,4 +1,13 @@
+/* Globals */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Containers */
 .container_app {
-    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_header {
+    text-align: center;
 }

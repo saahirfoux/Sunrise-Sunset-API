@@ -2,8 +2,7 @@
 .container_result-list {
     border: 1px #000 solid;
     border-radius: 5px;
-    max-width: 390px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 390px;
 }
 .container_result-item {
     display: flex;

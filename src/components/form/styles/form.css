@@ -1,6 +1,8 @@
 /* Containers */
+.container_list-form {
+    width: 400px;
+}
 .container_form-elements {
-    max-width: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,7 +15,6 @@
     border-radius: 5px;
     font-size: 16px;
     color: #353434;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 4px;
     margin: 5px 5px;
 }
@@ -26,7 +27,6 @@
     border: 1px #000 solid;
     border-radius: 5px;
     color: #353434;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 5px;
     margin-bottom: 5px;
     text-align: center;

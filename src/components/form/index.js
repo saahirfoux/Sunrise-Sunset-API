@@ -11,10 +11,13 @@ const Form = ({dispatch, list}) => {
 
     return (
         <>
-            {list.map((location, index) => {
-                return (<InputField key={index} handleAdd={handleAdd} model={location} index={index}/>)
-            })}
-            <Actions allowSubmit={true}/>
+            <div className={'container_list-form'}>
+                <div className={'container_header'}>Please enter upto five locations </div>
+                {list.map((location, index) => {
+                    return (<InputField key={index} handleAdd={handleAdd} model={location} index={index}/>)
+                })}
+                <Actions allowSubmit={true}/>
+            </div>
         </>
     );
 }

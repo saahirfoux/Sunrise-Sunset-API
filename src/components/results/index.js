@@ -7,6 +7,7 @@ const Results = ({ results }) => {
   console.log(results, 'The results')
   return (
     <div className={'container_result-list'}>
+        <div className={'container_header'}>All times shown are in UTC </div>
         {results.map((item, index) => {
             return (
                 <div key={index} className={'container_result-item'}>
